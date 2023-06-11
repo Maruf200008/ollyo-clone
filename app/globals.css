@@ -18,6 +18,7 @@
 
 body {
   background-image: url("./images/bg.png");
+  background-color: #f2f8f5;
 }
 
 .hero_span {
@@ -26,4 +27,11 @@ body {
   -webkit-text-stroke: 6px transparent;
   color: #f2f8f5;
   text-transform: uppercase;
+}
+
+.fun-fact_bg_title {
+  background: -webkit-linear-gradient(90deg, #f2f8f5 10%, #e2e2e2 90%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  color: #f2f8f5;
 }
