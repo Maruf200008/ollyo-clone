@@ -17,11 +17,13 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url("./images/bg.png");
+}
+
+.hero_span {
+  background: -webkit-linear-gradient(#23bfb8, #85ea80);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 6px transparent;
+  color: #f2f8f5;
+  text-transform: uppercase;
 }
