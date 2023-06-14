@@ -19,9 +19,7 @@ const Hero = () => {
           className={`${roboto_slab.className} font-black  text-[40px]   uppercase  text-[#26302b] hero_title md:hidden`}
         >
           Creating the-
-          <span className={`${poppins.className} hero_span font-black `}>
-            future{" "}
-          </span>
+          <span className={`hero_span font-black `}>future </span>
           of web
         </h2>
         <p className=" md:mt-14 mt-6 text-lg  md:text-3xl md:w-[750px] text-gray-500 md:leading-[50px]">

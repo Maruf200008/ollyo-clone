@@ -35,3 +35,18 @@ body {
   -webkit-text-stroke: 3px transparent;
   color: #f2f8f5;
 }
+.product_name {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: #26302b;
+  line-height: 170px;
+  letter-spacing: -5px;
+  display: inline-block;
+  margin: 0 65px 33px -500px;
+  text-decoration: none;
+  position: relative;
+}
+
+.product_name:hover {
+  -webkit-text-stroke-width: 0px;
+}

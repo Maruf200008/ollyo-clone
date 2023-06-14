@@ -1,4 +1,11 @@
-import { FanFact, Hero, Navbar, OurVision } from "./components";
+import {
+  FanFact,
+  GivingBack,
+  Hero,
+  Navbar,
+  OurVision,
+  Wings,
+} from "./components";
 
 export default function Home() {
   return (
@@ -7,6 +14,8 @@ export default function Home() {
       <Hero />
       <OurVision />
       <FanFact />
+      <Wings />
+      <GivingBack />
     </div>
   );
 }

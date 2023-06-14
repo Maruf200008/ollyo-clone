@@ -1,15 +1,15 @@
 import { Poppins, Roboto_Slab } from "next/font/google";
 
 export const roboto_slab = Roboto_Slab({
-  weight: ["900"],
-  style: ["normal"],
-  subsets: ["latin"],
+  weight: ["600", "700", "900"],
+
+  preload: false,
   display: "swap",
 });
 
 export const poppins = Poppins({
-  weight: ["900"],
+  weight: ["500", "600", "900"],
   style: ["normal"],
-  subsets: ["latin"],
+  preload: false,
   display: "swap",
 });

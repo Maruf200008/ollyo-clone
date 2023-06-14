@@ -2,10 +2,10 @@ import { roboto_slab } from "../font";
 
 const FanFact = () => {
   return (
-    <div className="h-[400px]">
+    <div className="h-[400px] my-32 ">
       <div>
         <h2
-          className={`${roboto_slab.className} text-center fun-fact_bg_title mt-[-90px]  text-[90px]  md:text-[230px] `}
+          className={`${roboto_slab.className} text-center fun-fact_bg_title mt-[-90px]  text-[90px]  md:text-[200px] `}
         >
           OUR FUN FACTS
         </h2>
