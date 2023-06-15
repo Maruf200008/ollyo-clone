@@ -89,7 +89,7 @@ const GivingBack = () => {
       <div className="md:w-[1350px] md:px-20  mx-auto px-5 relative ">
         <p className="tracking-[10px]  md:text-lg">GIVING BACK</p>
         <h2
-          className={`${roboto_slab.className} font-black text-2xl md:text-5xl md:leading-[70px] my-10`}
+          className={`${roboto_slab.className}  text-2xl md:text-5xl md:leading-[70px] my-10`}
         >
           We care about the community <br /> and support through <br />{" "}
           sponsorships & donations
@@ -100,17 +100,17 @@ const GivingBack = () => {
             ? programs.slice(0, 9).map((pro, index) => (
                 <div
                   key={index}
-                  className="flex justify-between items-center border-b pb-5 "
+                  className="flex justify-between items-center border-b pb-5 text-left "
                 >
                   <div>
                     <p className=" font-semibold">{pro?.sponsor}</p>
                     <p className=" text-gray-500">{pro?.year}</p>
                   </div>
-                  <div className=" tex">
-                    <h2 className={`${roboto_slab?.className} text-2xl `}>
-                      {pro?.title}
-                    </h2>
-                  </div>
+
+                  <h2 className={`${roboto_slab?.className} text-2xl  `}>
+                    {pro?.title}
+                  </h2>
+
                   <div>
                     <h2>{pro?.country}</h2>
                   </div>
@@ -168,7 +168,9 @@ const GivingBack = () => {
                   className="flex justify-between items-center border-b pb-5 "
                 >
                   <div className=" space-y-3">
-                    <h2 className={`${roboto_slab?.className} text-2xl `}>
+                    <h2
+                      className={`${roboto_slab.className}  text-lg md:text-2xl `}
+                    >
                       {pro?.title}
                     </h2>
                     <div className=" flex items-center gap-x-5 text-[14px]">
@@ -188,7 +190,9 @@ const GivingBack = () => {
                   className="flex justify-between items-center border-b pb-5 "
                 >
                   <div className=" space-y-3">
-                    <h2 className={`${roboto_slab?.className} text-2xl `}>
+                    <h2
+                      className={`${roboto_slab?.className} text-lg md:text-2xl `}
+                    >
                       {pro?.title}
                     </h2>
                     <div className=" flex items-center gap-x-5 text-[14px]">

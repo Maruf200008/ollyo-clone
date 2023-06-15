@@ -1,6 +1,9 @@
 import {
+  Contact,
   FanFact,
+  Footer,
   GivingBack,
+  GlobalTeam,
   Hero,
   Navbar,
   OurVision,
@@ -16,6 +19,9 @@ export default function Home() {
       <FanFact />
       <Wings />
       <GivingBack />
+      <GlobalTeam />
+      <Contact />
+      <Footer />
     </div>
   );
 }

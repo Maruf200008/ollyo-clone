@@ -11,7 +11,7 @@ const OurVision = () => {
       </div>
       <div className="md:w-[1350px] md:px-20  mx-auto px-5 z-30 mt-[-60px] md:mt-[-180px] ">
         <div className=" absolute">
-          <p className=" text-gray-700 text-[11px] text-xl tracking-[8px]">
+          <p className=" text-gray-700 text-[11px] md:text-xl tracking-[8px]">
             WE ENVISION WITH A MISSION
           </p>
           <h2

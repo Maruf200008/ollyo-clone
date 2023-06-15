@@ -1,7 +1,7 @@
 import { Poppins, Roboto_Slab } from "next/font/google";
 
 export const roboto_slab = Roboto_Slab({
-  weight: ["600", "700", "900"],
+  weight: ["900"],
 
   preload: false,
   display: "swap",

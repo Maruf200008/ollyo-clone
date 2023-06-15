@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { roboto_slab } from "../font";
-import ollyo from "../images/logo.png";
+import { roboto_slab } from "../../font";
+import ollyo from "../../images/logo.png";
 
 const Navbar = () => {
   return (
@@ -11,15 +11,12 @@ const Navbar = () => {
           <Image src={ollyo} alt="logo" className=" w-[100px] cursor-pointer" />
         </Link>
         <ul className=" flex items-center justify-center  gap-x-5 text-[16px] text-slate-500">
-          <Link
-            href="/"
-            className={`${roboto_slab.className} font-semibold underline text-[#008977]`}
-          >
+          <Link href="/" className={`${roboto_slab.className} `}>
             Home
           </Link>
           <Link
             href="/careers"
-            className={`${roboto_slab.className} hover:text-[#008977] transition`}
+            className={`${roboto_slab.className}  font-semibold underline text-[#008977]`}
           >
             Careers
           </Link>
