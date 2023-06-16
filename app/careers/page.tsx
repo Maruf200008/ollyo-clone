@@ -1,5 +1,5 @@
 import { Navbar } from "../components";
-import { Benefits, Vallues, WorkWith } from "./components";
+import { Benefits, JoinUs, Vallues, WorkWith } from "./components";
 
 export default function Careers() {
   return (
@@ -8,6 +8,7 @@ export default function Careers() {
       <WorkWith />
       <Vallues />
       <Benefits />
+      <JoinUs />
     </div>
   );
 }

@@ -302,7 +302,7 @@ const Vallues = () => {
         <div className="md:w-[1350px] md:px-20  mx-auto px-5 z-30  md:mt-[-180px]  ">
           <div className=" absolute">
             <h2
-              className={` ${roboto_slab.className}  text-[35px] md:w-[800px] mt-5 text-[#26302b]`}
+              className={` ${roboto_slab.className} text-[35px] md:w-[800px] mt-5 text-[#26302b]`}
             >
               At Ollyo, our company values reflect the core beliefs and guiding
               principles that shape our culture, decision-making process, and
