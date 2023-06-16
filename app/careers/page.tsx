@@ -1,11 +1,13 @@
 import { Navbar } from "../components";
-import { WorkWith } from "./components";
+import { Benefits, Vallues, WorkWith } from "./components";
 
 export default function Careers() {
   return (
     <div>
       <Navbar />
       <WorkWith />
+      <Vallues />
+      <Benefits />
     </div>
   );
 }
