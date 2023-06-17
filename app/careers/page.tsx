@@ -1,5 +1,12 @@
-import { Navbar } from "../components";
-import { Benefits, JoinUs, Vallues, WorkWith } from "./components";
+import {
+  Benefits,
+  Footer,
+  JoinUs,
+  Magnificent,
+  Navbar,
+  Vallues,
+  WorkWith,
+} from "./components";
 
 export default function Careers() {
   return (
@@ -9,6 +16,8 @@ export default function Careers() {
       <Vallues />
       <Benefits />
       <JoinUs />
+      <Magnificent />
+      <Footer />
     </div>
   );
 }
