@@ -1,5 +1,10 @@
 import { roboto_slab } from "../../font";
-const ValluesCard = ({ subject }) => {
+
+const ValluesCard = ({
+  subject,
+}: {
+  subject?: { icon?: JSX.Element; title?: string; description?: string };
+}) => {
   return (
     <>
       <div className=" space-y-5 ">
