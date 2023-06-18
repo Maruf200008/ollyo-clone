@@ -86,13 +86,15 @@ const GivingBack = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className=" my-32">
-      <div className="md:w-[1350px] md:px-20  mx-auto px-5 relative ">
-        <p className="tracking-[10px]  md:text-lg">GIVING BACK</p>
+      <div className=" md:w-full w-[90%] md:px-10 overflow-hidden lg:px-20  md:mx-auto px-5 relative ">
+        <p className="tracking-[5px] md:tracking-[10px] text-[10px]  md:text-lg">
+          GIVING BACK
+        </p>
         <h2
-          className={`${roboto_slab.className}  text-2xl md:text-5xl md:leading-[70px] my-10`}
+          className={`${roboto_slab.className} pr-4 md:pr-0  text-2xl md:text-4xl md:leading-[70px] my-10`}
         >
-          We care about the community <br /> and support through <br />{" "}
-          sponsorships & donations
+          We care about the community and support through sponsorships &
+          donations
         </h2>
         {/* Desktop design */}
         <div className=" mt-10 md:mt-24 space-y-5 hidden md:block">
@@ -100,7 +102,7 @@ const GivingBack = () => {
             ? programs.slice(0, 9).map((pro, index) => (
                 <div
                   key={index}
-                  className="flex justify-between items-center border-b pb-5 text-left "
+                  className="grid grid-cols-3  border-b pb-5 text-left "
                 >
                   <div>
                     <p className=" font-semibold">{pro?.sponsor}</p>
@@ -112,15 +114,12 @@ const GivingBack = () => {
                   </h2>
 
                   <div>
-                    <h2>{pro?.country}</h2>
+                    <h2 className=" text-right ">{pro?.country}</h2>
                   </div>
                 </div>
               ))
             : programs.map((pro, index) => (
-                <div
-                  key={index}
-                  className="flex justify-between items-center border-b pb-5 "
-                >
+                <div key={index} className="grid grid-cols-3  border-b pb-5 ">
                   <div>
                     <p className=" font-semibold">{pro?.sponsor}</p>
                     <p className=" text-gray-500">{pro?.year}</p>
@@ -131,7 +130,7 @@ const GivingBack = () => {
                     </h2>
                   </div>
                   <div>
-                    <h2>{pro?.country}</h2>
+                    <h2 className=" text-right">{pro?.country}</h2>
                   </div>
                 </div>
               ))}
@@ -180,7 +179,7 @@ const GivingBack = () => {
                   </div>
 
                   <div>
-                    <h2>{pro?.country}</h2>
+                    <h2 className=" mr-6 text-[14px]">{pro?.country}</h2>
                   </div>
                 </div>
               ))
@@ -206,7 +205,7 @@ const GivingBack = () => {
                   </div>
                 </div>
               ))}
-          <div className=" absolute right-5">
+          <div className=" absolute right-10">
             {toggle ? (
               <div className=" flex items-center gap-x-3">
                 <AiOutlineMinusCircle size={20} />

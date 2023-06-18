@@ -5,12 +5,16 @@ import ollyo from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <div className=" md:w-[1350px]  md:h-[150px] mx-auto py-20 md:px-28 px-5  ">
+    <div className=" w-full   md:h-[150px] md:mx-auto py-20 md:px-10 px-5  ">
       <div className=" flex items-center justify-between">
         <Link href="/">
-          <Image src={ollyo} alt="logo" className=" w-[100px] cursor-pointer" />
+          <Image
+            src={ollyo}
+            alt="logo"
+            className=" w-[90px] md:w-[110px] cursor-pointer"
+          />
         </Link>
-        <ul className=" flex items-center justify-center  gap-x-5 text-[12px] text-slate-500">
+        <ul className=" w-full flex items-center justify-center mr-[-35px] md:mr-0 text-[14px] gap-x-5   md:gap-x-8 md:text-[18px]  text-slate-500">
           <Link
             href="/"
             className={`${roboto_slab.className} font-semibold underline text-[#008977]`}

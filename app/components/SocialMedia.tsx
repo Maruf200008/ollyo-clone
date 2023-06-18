@@ -4,7 +4,7 @@ import { GrFacebookOption } from "react-icons/gr";
 
 const SocialMedia = () => {
   return (
-    <div className=" text-xl space-y-5 text-gray-500 flex items-center flex-col">
+    <div className="   space-y-5 text-gray-500 flex items-center flex-col">
       <div className=" flex flex-col gap-y-5">
         <Link
           href="https://facebook.com/ollyohq"

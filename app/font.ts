@@ -8,7 +8,6 @@ export const roboto_slab = Roboto_Slab({
 
 export const poppins = Poppins({
   weight: ["500", "600", "900"],
-
   preload: false,
   display: "swap",
 });
