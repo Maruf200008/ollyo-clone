@@ -1,34 +1,29 @@
 import { poppins, roboto_slab } from "../font";
 const OurVision = () => {
   return (
-    <div className="  w-[350px] h-[1100px] md:h-[900px] mt-[30px] md:mt-[-30px]  ">
+    <div className=" w-[350px] sm:w-[550px] md:w-[770px] lg:w-[1024px]  sm:mx-auto  h-[1100px] md:h-[900px] mt-[30px] sm:mt-[200px] md:mt-[-30px]  ">
       <div className=" overflow-hidden">
         <h2
-          className={` ${poppins.className} uppercase md:text-center  text-[#e7f2ef] md:mt-[60px] relative  text-[55px] font-bold md:text-[120px] lg:text-[230px]`}
+          className={` ${poppins.className} uppercase sm:text-center  text-[#e7f2ef] md:mt-[60px] relative mx-[-30px]  text-[55px] sm:text-[110px] font-bold md:text-[120px] lg:text-[180px] -z-20`}
         >
           Our Vision
         </h2>
       </div>
-      <div className="w-full px-5  md:px-10  mx-auto z-30 mt-[-40px] md:mt-[-60px]  ">
-        <div className=" absolute">
-          <p className=" text-gray-700 text-[11px] md:text-xl tracking-[3px] md:tracking-[8px]">
+      <div className=" px-5  md:px-10  sm:mx-auto z-50 mt-[-40px] sm:mt-[-80px] md:mt-[-60px] lg:mt-[-120px]  ">
+        <div className=" ">
+          <p className=" text-gray-700 text-[11px] sm:text-[22px] sm:tracking-[5px] md:text-xl tracking-[3px] md:tracking-[8px]">
             WE ENVISION WITH A MISSION
           </p>
+
           <h2
-            className={` ${roboto_slab.className} hidden md:block md:text-[35px]  mt-5 text-[#26302b]`}
-          >
-            Here, we embrace the challenge to drive <br /> each other to
-            excellence by enriching <br /> our own capabilities.
-          </h2>
-          <h2
-            className={` ${roboto_slab.className} md:hidden  text-[27px] font-bold  mt-5 text-[#26302b]`}
+            className={` ${roboto_slab.className}  text-[27px]  sm:text-[35px] md:text-[40px] lg:text-[45px] font-bold  mt-5 text-[#26302b]`}
           >
             Here, we embrace the challenge to drive each other to excellence by
             enriching our own capabilities.
           </h2>
-          <div className=" w-[320px]  md:pr-0  grid md:grid-cols-2  md:text-xl md:w-full gap-y-10   md:gap-x-5 my-16  text-[#484848]">
+          <div className="    grid md:grid-cols-2   sm:text-xl  gap-y-10   md:gap-x-5 lg:gap-x-8 my-16  text-[#484848]">
             <div>
-              <p className=" leading-[30px]">
+              <p className=" leading-[30px] sm:leading-[40px] md:leading-[30px] lg:leading-[40px] md:text-[18px] lg:text-[22px]">
                 We have a unique combination of{" "}
                 <span className=" font-bold">
                   {" "}
@@ -41,7 +36,7 @@ const OurVision = () => {
               </p>
             </div>
             <div>
-              <p className="  leading-[30px]">
+              <p className=" leading-[30px] sm:leading-[40px] md:leading-[30px] lg:leading-[40px] md:text-[18px] lg:text-[22px]">
                 We dream, design, develop, and dare to challenge the status quo
                 and <span className=" font-bold">make a difference.</span> We
                 strive to develop a rich culture by{" "}

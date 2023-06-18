@@ -6,35 +6,37 @@ import { roboto_slab } from "../font";
 const Contact = () => {
   return (
     <div className=" my-20">
-      <div className="  md:px-10  md:mx-auto px-5">
+      <div className=" md:px-10 sm:w-[550px] md:w-[770px] sm:mx-auto px-5">
         <p
-          className={`${roboto_slab.className} text-lg md:text-3xl text-[#26302b]`}
+          className={`${roboto_slab.className} text-lg sm:text-3xl md:text-[40px] text-[#26302b]`}
         >
           Want to talk to us?
         </p>
         <Link
-          className={`${roboto_slab.className} text-[35px] md:text-[70px] font-bold text-[#26302b]`}
+          className={`${roboto_slab.className} text-[35px] sm:text-[55px] md:text-[70px] font-bold text-[#26302b]`}
           href="mailto:hello@ollyo.com"
         >
           hello@ollyo.com
         </Link>
 
-        <div className=" mt-16 md:mt-32 flex flex-col md:flex-row gap-y-14 justify-start gap-x-28 md:gap-x-18">
-          <div className=" space-y-4 md:space-y-7 w-[300px] md:w-full">
+        <div className=" mt-16 md:mt-32 flex flex-col md:flex-row gap-y-14 justify-start gap-x-28  ">
+          <div className=" space-y-4 md:space-y-7  ">
             <h2
-              className={`${roboto_slab.className} text-2xl md:text-3xl text-[#26302b] `}
+              className={`${roboto_slab.className} text-2xl sm:text-3xl text-[#26302b] `}
             >
               We Are Here
             </h2>
-            <p className=" md:text-xl text-[16px] text-gray-700">
+            <p className=" sm:text-xl text-[16px] text-gray-700">
               Holding 1 , Patira, Dhaka - 1229, <br /> Bangladesh
             </p>
           </div>
-          <div className="space-y-4 md:space-y-7 w-[200px] md:w-full ">
-            <h2 className={`${roboto_slab.className} text-lg md:text-3xl `}>
+          <div className="space-y-4 md:space-y-7  ">
+            <h2
+              className={`${roboto_slab.className} text-lg sm:text-3xl  text-[#26302b] `}
+            >
               Follow us
             </h2>
-            <div className="flex gap-x-5 text-gray-500 text-xl md:text-lg">
+            <div className="flex gap-x-5 text-gray-500 text-xl sm:text-lg">
               <Link
                 href="https://facebook.com/ollyohq"
                 target="_"

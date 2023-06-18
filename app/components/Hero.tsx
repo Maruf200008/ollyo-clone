@@ -2,21 +2,10 @@ import { poppins, roboto_slab } from "../font";
 import SocialMedia from "./SocialMedia";
 const Hero = () => {
   return (
-    <div className=" w-[350px]  md:mx-auto py-10 md:px-10  px-5  ">
+    <div className=" w-[350px] sm:w-[550px] md:w-[770px] lg:w-[1024px] lg:mt-[70px]  sm:mx-auto py-10 md:px-10   px-5  ">
       <div className="">
         <h2
-          className={`${roboto_slab.className}  font-black  md:text-[105px]  uppercase leading-[100px] text-[#26302b] hero_title hidden md:block`}
-        >
-          Creating <br /> the-
-          <span
-            className={`${poppins.className} hero_span font-black -tracking-[1px]  `}
-          >
-            future <br />
-          </span>
-          of web
-        </h2>
-        <h2
-          className={`${roboto_slab.className}  font-black  text-[48px]   uppercase  text-[#26302b] hero_title md:hidden`}
+          className={`${roboto_slab.className}  font-black  text-[48px] sm:text-[80px] md:text-[100px] lg:text-[140px] lg:leading-[150px]   uppercase  text-[#26302b] hero_title md:leading-[110px]`}
         >
           Creating the-
           <span className={`${poppins.className} hero_span font-black `}>
@@ -24,7 +13,7 @@ const Hero = () => {
           </span>
           of web
         </h2>
-        <p className=" md:mt-14 mt-6 text-[15px]  md:font-semibold md:w-full md:text-3xl text-gray-900  md:text-gray-500 md:leading-[50px]">
+        <p className=" md:mt-14 mt-6 text-[15px] sm:text-[25px]  md:text-[28px] lg:text-[30px] lg:text-[#26302b]  sm:text-gray-500 md:leading-[50px]">
           Helping businesses go online and grow bigger with high-tech web
           applications.
         </p>
@@ -34,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" absolute -right-[150px] mt-[-720px] hidden lg:block">
+      <div className=" absolute -right-[150px] mt-[-720px] hidden xl:block">
         <SocialMedia />
       </div>
     </div>

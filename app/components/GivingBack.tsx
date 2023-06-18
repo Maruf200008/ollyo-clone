@@ -86,115 +86,27 @@ const GivingBack = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className=" my-32">
-      <div className=" w-[350px]  md:px-10 overflow-hidden lg:px-20  md:mx-auto px-5 relative ">
-        <p className="tracking-[5px] md:tracking-[10px] text-[10px]  md:text-lg">
+      <div className=" w-[350px] sm:w-[550px] md:w-[770px] lg:w-[1024px]  md:px-10 overflow-hidden lg:px-20  sm:mx-auto px-5 relative ">
+        <p className="tracking-[5px]  md:tracking-[10px] text-[10px]  sm:text-lg sm:mb-4">
           GIVING BACK
         </p>
         <h2
-          className={`${roboto_slab.className} text-[25px] font-bold md:text-3xl text-[#26302b] `}
+          className={`${roboto_slab.className} text-[25px] font-bold sm:text-3xl md:text-[40px] text-[#26302b] md:leading-[50px] lg:text-[50px] lg:leading-[60px]  `}
         >
           We care about the community and support through sponsorships &
           donations
         </h2>
-        {/* Desktop design */}
-        <div className=" mt-10 md:mt-24 space-y-5 hidden md:block">
-          {!toggle
-            ? programs.slice(0, 9).map((pro, index) => (
-                <div
-                  key={index}
-                  className="grid grid-cols-3  border-b pb-5 text-left "
-                >
-                  <div>
-                    <p className=" font-semibold">{pro?.sponsor}</p>
-                    <p className=" text-gray-500">{pro?.year}</p>
-                  </div>
-
-                  <h2 className={`${roboto_slab?.className} text-2xl  `}>
-                    {pro?.title}
-                  </h2>
-
-                  <div>
-                    <h2 className=" text-right ">{pro?.country}</h2>
-                  </div>
-                </div>
-              ))
-            : programs.map((pro, index) => (
-                <div key={index} className="grid grid-cols-3  border-b pb-5 ">
-                  <div>
-                    <p className=" font-semibold">{pro?.sponsor}</p>
-                    <p className=" text-gray-500">{pro?.year}</p>
-                  </div>
-                  <div className=" tex">
-                    <h2 className={`${roboto_slab?.className} text-2xl `}>
-                      {pro?.title}
-                    </h2>
-                  </div>
-                  <div>
-                    <h2 className=" text-right">{pro?.country}</h2>
-                  </div>
-                </div>
-              ))}
-          <div className=" absolute right-14">
-            {toggle ? (
-              <div className=" flex items-center gap-x-3">
-                <AiOutlineMinusCircle size={30} />
-                <p
-                  className={`${roboto_slab.className} cursor-pointer underline `}
-                  onClick={() => setToggle(!toggle)}
-                >
-                  Show Less
-                </p>
-              </div>
-            ) : (
-              <div className="flex items-center gap-x-3">
-                <AiOutlinePlusCircle size={30} />
-                <p
-                  className={` ${roboto_slab.className} cursor-pointer underline `}
-                  onClick={() => setToggle(!toggle)}
-                >
-                  Show More
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-        {/* Mobile design */}
+        {/* sm device */}
         <div className=" mt-24 space-y-5 md:hidden">
           {!toggle
             ? programs.slice(0, 9).map((pro, index) => (
                 <div
                   key={index}
-                  className="flex w-[350px] justify-between items-center border-b  pb-5 "
+                  className="flex w-[350px] sm:w-[550px] justify-between items-center border-b pb-5 "
                 >
                   <div className=" space-y-3">
                     <h2
-                      className={`${roboto_slab.className}  text-xl md:text-2xl text-[#26302b] font-bold `}
-                    >
-                      {pro?.title}
-                    </h2>
-                    <div className=" flex items-center gap-x-5 text-[13px]">
-                      <p className=" font-semibold text-[#26302b]">
-                        {pro?.sponsor}
-                      </p>
-                      <p className=" text-gray-500">{pro?.year}</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h2 className=" mr-[20px] text-[14px] text-gray-700">
-                      {pro?.country}
-                    </h2>
-                  </div>
-                </div>
-              ))
-            : programs.map((pro, index) => (
-                <div
-                  key={index}
-                  className="flex w-[350px] justify-between items-center border-b pb-5 "
-                >
-                  <div className=" space-y-3">
-                    <h2
-                      className={`${roboto_slab?.className} text-xl md:text-2xl text-[#26302b] font-bold `}
+                      className={`${roboto_slab.className}  text-xl sm:text-2xl text-[#26302b] font-bold `}
                     >
                       {pro?.title}
                     </h2>
@@ -205,20 +117,46 @@ const GivingBack = () => {
                   </div>
 
                   <div>
-                    <h2 className="mr-[20px] text-[14px] text-gray-700">
+                    <h2 className=" mr-[20px] text-[14px] sm:text-[16px] text-gray-700">
+                      {pro?.country}
+                    </h2>
+                  </div>
+                </div>
+              ))
+            : programs.map((pro, index) => (
+                <div
+                  key={index}
+                  className="flex w-[350px] sm:w-[550px] justify-between items-center border-b pb-5 "
+                >
+                  <div className=" space-y-3">
+                    <h2
+                      className={`${roboto_slab.className}  text-xl sm:text-2xl text-[#26302b] font-bold `}
+                    >
+                      {pro?.title}
+                    </h2>
+                    <div className=" flex items-center gap-x-5 text-[13px] text-[#26302b]">
+                      <p className=" font-semibold">{pro?.sponsor}</p>
+                      <p className=" text-gray-500">{pro?.year}</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h2 className=" mr-[20px] text-[14px] sm:text-[16px] text-gray-700">
                       {pro?.country}
                     </h2>
                   </div>
                 </div>
               ))}
-          <div className="text-[#26302b] ">
+          <div className="text-[#26302b]  ">
             {toggle ? (
               <div
-                className=" flex items-center gap-x-3 cursor-pointer"
+                className=" flex items-center gap-x-3 cursor-pointer  "
                 onClick={() => setToggle(!toggle)}
               >
                 <AiOutlineMinusCircle size={20} />
-                <p className={`${roboto_slab.className}  underline `}>
+                <p
+                  className={`${roboto_slab.className}  underline sm:text-[18px] `}
+                >
                   Show Less
                 </p>
               </div>
@@ -228,7 +166,88 @@ const GivingBack = () => {
                 onClick={() => setToggle(!toggle)}
               >
                 <AiOutlinePlusCircle size={20} />
-                <p className={` ${roboto_slab.className}  underline `}>
+                <p
+                  className={` ${roboto_slab.className}  underline sm:text-[18px] `}
+                >
+                  Show More
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+        {/* md device */}
+        <div className=" mt-24 space-y-5 hidden md:block">
+          {!toggle
+            ? programs.slice(0, 9).map((pro, index) => (
+                <div
+                  key={index}
+                  className=" grid grid-cols-3    border-b pb-5 "
+                >
+                  <div className=" space-y-3">
+                    <div className="  md:text-[16px] text-[#26302b] ">
+                      <p className=" font-semibold">{pro?.sponsor}</p>
+                      <p className=" text-gray-500">{pro?.year}</p>
+                    </div>
+                  </div>
+                  <h2
+                    className={`${roboto_slab.className}  md:mx-[-30px] md:text-[22px] text-[#26302b] font-bold lg:text-[25px] `}
+                  >
+                    {pro?.title}
+                  </h2>
+
+                  <div>
+                    <h2 className=" md:text-right text-gray-700 md:text-[20px]">
+                      {pro?.country}
+                    </h2>
+                  </div>
+                </div>
+              ))
+            : programs.map((pro, index) => (
+                <div
+                  key={index}
+                  className=" grid grid-cols-3    border-b pb-5 "
+                >
+                  <div className=" space-y-3">
+                    <div className="  md:text-[16px] text-[#26302b] ">
+                      <p className=" font-semibold">{pro?.sponsor}</p>
+                      <p className=" text-gray-500">{pro?.year}</p>
+                    </div>
+                  </div>
+                  <h2
+                    className={`${roboto_slab.className}  md:mx-[-30px] md:text-[22px] text-[#26302b] font-bold `}
+                  >
+                    {pro?.title}
+                  </h2>
+
+                  <div>
+                    <h2 className=" md:text-right text-gray-700 md:text-[20px]">
+                      {pro?.country}
+                    </h2>
+                  </div>
+                </div>
+              ))}
+          <div className="text-[#26302b]  ">
+            {toggle ? (
+              <div
+                className=" flex items-center gap-x-3 cursor-pointer  "
+                onClick={() => setToggle(!toggle)}
+              >
+                <AiOutlineMinusCircle size={30} />
+                <p
+                  className={`${roboto_slab.className}  underline  md:text-[22px] `}
+                >
+                  Show Less
+                </p>
+              </div>
+            ) : (
+              <div
+                className="flex items-center gap-x-3 cursor-pointer"
+                onClick={() => setToggle(!toggle)}
+              >
+                <AiOutlinePlusCircle size={30} />
+                <p
+                  className={` ${roboto_slab.className}  underline md:text-[22px] `}
+                >
                   Show More
                 </p>
               </div>

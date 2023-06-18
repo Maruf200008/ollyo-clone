@@ -30,11 +30,6 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   color: #26302b;
-  line-height: 170px;
-  letter-spacing: -5px;
-  display: inline-block;
-  margin: 0 65px 33px -500px;
-  text-decoration: none;
   position: relative;
 }
 
