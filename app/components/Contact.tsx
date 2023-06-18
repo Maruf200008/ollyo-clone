@@ -6,12 +6,14 @@ import { roboto_slab } from "../font";
 const Contact = () => {
   return (
     <div className=" my-20">
-      <div className="md:w-full w-[90%]  md:px-10  md:mx-auto px-5">
-        <p className={`${roboto_slab.className} text-lg md:text-3xl`}>
+      <div className="  md:px-10  md:mx-auto px-5">
+        <p
+          className={`${roboto_slab.className} text-lg md:text-3xl text-[#26302b]`}
+        >
           Want to talk to us?
         </p>
         <Link
-          className={`${roboto_slab.className} text-[35px] md:text-[70px]`}
+          className={`${roboto_slab.className} text-[35px] md:text-[70px] font-bold text-[#26302b]`}
           href="mailto:hello@ollyo.com"
         >
           hello@ollyo.com
@@ -19,7 +21,9 @@ const Contact = () => {
 
         <div className=" mt-16 md:mt-32 flex flex-col md:flex-row gap-y-14 justify-start gap-x-28 md:gap-x-18">
           <div className=" space-y-4 md:space-y-7 w-[300px] md:w-full">
-            <h2 className={`${roboto_slab.className} text-2xl md:text-3xl `}>
+            <h2
+              className={`${roboto_slab.className} text-2xl md:text-3xl text-[#26302b] `}
+            >
               We Are Here
             </h2>
             <p className=" md:text-xl text-[16px] text-gray-700">

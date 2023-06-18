@@ -5,7 +5,7 @@ import ollyo from "../../images/logo.png";
 
 const Navbar = () => {
   return (
-    <div className=" md:w-[1350px]  md:h-[150px] mx-auto py-20 md:px-28 px-5  ">
+    <div className=" md:w-[1350px]  w-full   md:h-[150px] mx-auto py-20 md:px-28 px-5  ">
       <div className=" flex items-center justify-between">
         <Link href="/">
           <Image src={ollyo} alt="logo" className=" w-[100px] cursor-pointer" />
