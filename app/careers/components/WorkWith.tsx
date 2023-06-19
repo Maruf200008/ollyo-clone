@@ -8,11 +8,13 @@ import hero5 from "../../images/hero5.jpg";
 const WorkWith = () => {
   return (
     <div className=" my-20">
-      <div className="md:w-[1350px] mx-auto md:px-28 px-5 space-y-10 ">
-        <h2 className={`${roboto_slab.className} text-[60px] md:text-[50px]`}>
+      <div className=" mx-auto sm:mx-auto  sm:px-10 xl:px-20 px-5 2xl:px-[160px] space-y-10 ">
+        <h2
+          className={`${roboto_slab.className} text-[60px] text-[#26302b] font-bold md:text-[50px]`}
+        >
           Work with us at Ollyo!
         </h2>
-        <p className=" text-xl md:text-lg text-gray-700 text-justify md:pr-20">
+        <p className=" text-[20px] md:text-lg text-gray-700  md:pr-20 leading-[35px]">
           Ollyo is a parent company of{" "}
           <span className=" text-[#008977] underline cursor-pointer">
             JoomShaper
@@ -34,31 +36,15 @@ const WorkWith = () => {
           widely utilize our exceptional, customizable, and user-friendly
           products.
         </p>
-        <div className=" space-y-5 ">
-          <div className=" flex gap-x-6 md:-ml-[115px] items-end">
-            <Image src={hero1} alt="" className=" w-[700px]" />
-            <Image
-              src={hero2}
-              alt=""
-              className=" hidden md:block w-[300px] h-[300px] "
-            />
+        <div className=" space-y-5  ">
+          <div className=" grid grid-cols-2">
+            <Image src={hero1} alt="" className=" col-span-2" />
+            <Image src={hero2} alt="" className=" hidden md:block " />
           </div>
-          <div className=" flex gap-x-6 items-start justify-end md:mr-[145px]   ">
-            <Image
-              src={hero3}
-              alt=""
-              className=" w-[160px] h-[170px]  md:w-[240px] md:h-[250px]"
-            />
-            <Image
-              src={hero4}
-              alt=""
-              className=" w-[209px] h-[280px]  md:w-[330px] md:h-[400px]"
-            />
-            <Image
-              src={hero5}
-              alt=""
-              className=" hidden md:block  w-[300px] h-[400px]"
-            />
+          <div className=" grid grid-cols-2 gap-x-4">
+            <Image src={hero3} alt="" className="  " />
+            <Image src={hero4} alt="" className=" " />
+            <Image src={hero5} alt="" className=" hidden md:block  " />
           </div>
         </div>
       </div>

@@ -18,13 +18,13 @@ import { Navigation } from "swiper";
 
 const Benefits = () => {
   return (
-    <div className=" bg-[#26302b] py-20 mt-[2350px] md:mt-[1350px] mb-20">
-      <div className="md:w-[1050px] md:px-20  mx-auto px-5 z-30 text-white ">
+    <div className=" bg-[#26302b] py-20  mb-20 mt-[200px] ">
+      <div className=" md:px-20  mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] z-30 text-white ">
         {" "}
         <p className="text-[20px]  md:text-[13px] tracking-[8px]">
           OUR BENEFITS
         </p>
-        <h2 className={` ${roboto_slab.className} text-[30px] mt-5 `}>
+        <h2 className={` ${roboto_slab.className} text-[35px] mt-5 `}>
           {`At Ollyo, we offer a comprehensive benefits package to support our employees' well-being and work-life balance. Our perks include the following:`}
         </h2>
         <div className=" grid md:grid-cols-3 gap-x-7 mt-10">
@@ -46,7 +46,7 @@ const Benefits = () => {
             <p>Loyalty Bonus</p>
             <p>Annual Pleasure Tour</p>
           </div>
-          <div className=" mt-10 w-[390px] md:w-full md:mt-0">
+          <div className="  mt-10  md:mt-0">
             <Swiper
               navigation={{
                 nextEl: ".button-next-slide",

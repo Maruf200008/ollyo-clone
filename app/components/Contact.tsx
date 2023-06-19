@@ -6,20 +6,20 @@ import { roboto_slab } from "../font";
 const Contact = () => {
   return (
     <div className=" my-20">
-      <div className=" md:px-10 sm:w-[550px] md:w-[770px] sm:mx-auto px-5">
+      <div className=" md:px-10 xl:px-20  sm:mx-auto px-5 sm:px-10 2xl:px-[160px]">
         <p
-          className={`${roboto_slab.className} text-lg sm:text-3xl md:text-[40px] text-[#26302b]`}
+          className={`${roboto_slab.className} text-lg sm:text-3xl md:text-[40px] lg:text-[60px] text-[#26302b]`}
         >
           Want to talk to us?
         </p>
         <Link
-          className={`${roboto_slab.className} text-[35px] sm:text-[55px] md:text-[70px] font-bold text-[#26302b]`}
+          className={`${roboto_slab.className} text-[35px] sm:text-[55px] md:text-[70px] lg:text-[90px] font-bold text-[#26302b]`}
           href="mailto:hello@ollyo.com"
         >
           hello@ollyo.com
         </Link>
 
-        <div className=" mt-16 md:mt-32 flex flex-col md:flex-row gap-y-14 justify-start gap-x-28  ">
+        <div className=" mt-16 md:mt-32 flex flex-col md:flex-row xl:gap-x-40 gap-y-14 justify-start gap-x-28  ">
           <div className=" space-y-4 md:space-y-7  ">
             <h2
               className={`${roboto_slab.className} text-2xl sm:text-3xl text-[#26302b] `}

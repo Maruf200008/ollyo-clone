@@ -26,7 +26,7 @@ const JoinUs = () => {
   ];
   return (
     <div className=" my-20">
-      <div className="md:w-[1050px] md:px-20  mx-auto px-5 z-30   ">
+      <div className=" md:px-20  mx-auto px-5 z-30   ">
         <h2
           className={` ${roboto_slab.className} mx-auto  text-center text-[35px] md:w-[800px]  `}
         >

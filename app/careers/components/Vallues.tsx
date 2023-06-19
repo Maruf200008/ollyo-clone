@@ -299,17 +299,17 @@ const Vallues = () => {
           Our Vallues
         </h2>
 
-        <div className="md:w-[1350px] md:px-20  mx-auto px-5 z-30  md:mt-[-180px]  ">
-          <div className=" absolute">
+        <div className=" mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] space-y-10   z-30  md:mt-[-180px]  ">
+          <div className=" ">
             <h2
-              className={` ${roboto_slab.className} text-[35px] md:w-[800px] mt-5 text-[#26302b]`}
+              className={` ${roboto_slab.className} text-[35px] font-semibold  mt-5 text-[#26302b]`}
             >
               At Ollyo, our company values reflect the core beliefs and guiding
               principles that shape our culture, decision-making process, and
               overall behavior.
             </h2>
 
-            <div className=" grid gap-y-10 mb-20 md:grid-cols-2 mt-10 md:grid-rows-4 md:ml-[300px]  gap-x-10 text-[#484848] md:w-[700px] ">
+            <div className=" grid gap-y-10  md:grid-cols-2 mt-20 md:grid-rows-4  gap-x-10  ">
               {subjects.map((sub, index) => (
                 <ValluesCard key={index} subject={sub} />
               ))}

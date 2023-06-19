@@ -5,7 +5,7 @@ import officeImg from "../../images/location.jpg";
 const Magnificent = () => {
   return (
     <div className="bg-[#26302b] mb-20">
-      <div className=" md:w-[1350px] w-full md:px-20  mx-auto  z-30   text-white">
+      <div className=" md:px-20  mx-auto  z-30   text-white">
         <div className=" flex md:flex-row flex-col gap-x-16">
           <Image
             src={officeImg}
