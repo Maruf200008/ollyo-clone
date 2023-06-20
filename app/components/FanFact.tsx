@@ -10,7 +10,7 @@ const FanFact = () => {
           OUR FUN FACTS
         </h2>
       </div>
-      <div className="      sm:px-10 xl:px-20 px-5 2xl:px-[160px]   sm:mx-auto  mt-[-50px] md:mt-[-70px]  ">
+      <div className=" sm:px-10 xl:px-20 px-5 2xl:px-[160px]   sm:mx-auto  mt-[-50px] md:mt-[-70px]  ">
         <div className="  grid grid-cols-2 gap-y-14 md:grid-cols-2 lg:grid-cols-4 md:gap-x-24   lg:gap-x-24">
           <div className=" ">
             <h2

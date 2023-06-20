@@ -25,21 +25,21 @@ const JoinUs = () => {
     },
   ];
   return (
-    <div className=" my-20">
-      <div className=" md:px-20  mx-auto px-5 z-30   ">
+    <div className=" my-20 mt-24">
+      <div className=" sm:px-10 xl:px-20 px-5 2xl:px-[160px] mx-autoz-30   ">
         <h2
-          className={` ${roboto_slab.className} mx-auto  text-center text-[35px] md:w-[800px]  `}
+          className={` ${roboto_slab.className} mx-auto font-semibold  text-center text-[#26302b] text-[40px]   `}
         >
           Come join us at Ollyo
         </h2>
         <div className=" space-y-7  overflow-hidden ">
           {subjects.map((sub, index) => (
             <Link key={index} href={sub?.applyLink} target="_">
-              <div className=" w-full bg-white mb-10  space-y-5 md:space-y-0 flex md:flex-row flex-col justify-between md:items-center h-[200px] md:h-[100px]  p-4   cursor-pointer rounded-md mt-10 hover:shadow-lg transition">
+              <div className=" bg-white mb-10  space-y-5 xl:space-y-0 flex lg:flex-row flex-col justify-between lg:items-center h-[200px] lg:h-[100px]  p-4 md:p-6   cursor-pointer rounded-md mt-10 hover:shadow-lg transition">
                 <h2 className={`${roboto_slab.className}  text-xl md:text-lg`}>
                   {sub?.title}
                 </h2>
-                <div className=" md:flex items-center justify-center gap-x-5 md:text-[12px] space-y-5 md:space-y-0 ">
+                <div className=" lg:flex lg:items-center lg:justify-center gap-x-5 xl:text-[12px] space-y-5 lg:space-y-0 ">
                   <div
                     className={` ${roboto_slab.className} flex items-center gap-x-3 text-slate-700`}
                   >
@@ -47,7 +47,7 @@ const JoinUs = () => {
                     <div className=" w-[7px] rounded-full h-[7px] bg-slate-400" />
                     <p>{sub?.location}</p>
                   </div>
-                  <button className=" border px-10 py-3 rounded-md border-gray-900 md:ml-32 font-medium transition hover:border-0   hover:border-b-2 hover:border-black  hover:bg-gradient-to-r from-[#85ea80] to-[#23bfb8]">
+                  <button className=" border px-10 py-3 rounded-md border-gray-900 lg:ml-32 font-medium transition hover:border-0   hover:border-b-2 hover:border-black  hover:bg-gradient-to-r from-[#85ea80] to-[#23bfb8]">
                     {sub?.buttonText}
                   </button>
                 </div>

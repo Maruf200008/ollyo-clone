@@ -292,9 +292,9 @@ const Vallues = () => {
 
   return (
     <>
-      <div className=" ">
+      <div className="  ">
         <h2
-          className={` ${poppins.className} hidden md:block uppercase text-center  text-[#e7f2ef] mt-[160px] relative  text-[70px] font-bold md:text-[200px]`}
+          className={` ${poppins.className} hidden md:block uppercase text-center  text-[#e7f2ef] mt-[160px]   text-[70px] font-bold md:text-[110px] lg:text-[150px] `}
         >
           Our Vallues
         </h2>
@@ -302,14 +302,14 @@ const Vallues = () => {
         <div className=" mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] space-y-10   z-30  md:mt-[-180px]  ">
           <div className=" ">
             <h2
-              className={` ${roboto_slab.className} text-[35px] font-semibold  mt-5 text-[#26302b]`}
+              className={` ${roboto_slab.className} text-[35px] font-semibold  mt-5 text-[#26302b] lg:text-[45px] lg:mt-20`}
             >
               At Ollyo, our company values reflect the core beliefs and guiding
               principles that shape our culture, decision-making process, and
               overall behavior.
             </h2>
 
-            <div className=" grid gap-y-10  md:grid-cols-2 mt-20 md:grid-rows-4  gap-x-10  ">
+            <div className=" grid gap-y-10 lg:grid-cols-2 lg:ml-[345px]  mt-20 xl:grid-rows-4  gap-x-10  ">
               {subjects.map((sub, index) => (
                 <ValluesCard key={index} subject={sub} />
               ))}

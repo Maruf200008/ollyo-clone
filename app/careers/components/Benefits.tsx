@@ -18,18 +18,16 @@ import { Navigation } from "swiper";
 
 const Benefits = () => {
   return (
-    <div className=" bg-[#26302b] py-20  mb-20 mt-[200px] ">
+    <div className=" bg-[#26302b] py-20 sm:py-[130px]  mb-20 mt-[200px] ">
       <div className=" md:px-20  mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] z-30 text-white ">
         {" "}
-        <p className="text-[20px]  md:text-[13px] tracking-[8px]">
-          OUR BENEFITS
-        </p>
-        <h2 className={` ${roboto_slab.className} text-[35px] mt-5 `}>
+        <p className="text-[20px]  tracking-[8px]">OUR BENEFITS</p>
+        <h2 className={` ${roboto_slab.className} text-[35px]  mt-5 `}>
           {`At Ollyo, we offer a comprehensive benefits package to support our employees' well-being and work-life balance. Our perks include the following:`}
         </h2>
-        <div className=" grid md:grid-cols-3 gap-x-7 mt-10">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-18 mt-10">
           <div
-            className={` ${roboto_slab.className} text-[16px] md:text-[12px] space-y-5 text-transparent bg-clip-text bg-gradient-to-r from-[#85ea80] to-[#23bfb8]`}
+            className={` ${roboto_slab.className} text-[16px]  space-y-5 text-transparent bg-clip-text bg-gradient-to-r from-[#85ea80] to-[#23bfb8]`}
           >
             <p>Excellent Culture & Environment</p>
             <p>Meals, Coffee & Snacks</p>
@@ -39,14 +37,14 @@ const Benefits = () => {
             <p>Free Shuttle Service</p>
           </div>
           <div
-            className={` ${roboto_slab.className} text-[16px] md:text-[12px] mt-5 md:mt-0 space-y-5 text-transparent bg-clip-text bg-gradient-to-r from-[#85ea80] to-[#23bfb8]`}
+            className={` ${roboto_slab.className} text-[16px]  mt-5 md:mt-0 space-y-5 text-transparent bg-clip-text bg-gradient-to-r from-[#85ea80] to-[#23bfb8]`}
           >
             <p>Dual Festival Bonuses</p>
             <p>Leave Encasement</p>
             <p>Loyalty Bonus</p>
             <p>Annual Pleasure Tour</p>
           </div>
-          <div className="  mt-10  md:mt-0">
+          <div className=" overflow-hidden  mt-10 lg:mt-0  md:col-span-2 lg:col-span-1">
             <Swiper
               navigation={{
                 nextEl: ".button-next-slide",
@@ -56,7 +54,7 @@ const Benefits = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <Image src={sportsImg} alt="" />
+                <Image src={sportsImg} alt="" className=" " />
               </SwiperSlide>
               <SwiperSlide>
                 <Image src={gymImg} alt="" />
