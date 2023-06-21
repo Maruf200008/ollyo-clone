@@ -1,4 +1,4 @@
-import { poppins, roboto_slab } from "../font";
+import { poppins, roboto_slab } from "../../font";
 const OurVision = () => {
   return (
     <div className="    sm:mx-auto  h-[1100px] md:h-[900px] mt-[30px] sm:mt-[200px] md:mt-[-30px]  ">

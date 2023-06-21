@@ -37,19 +37,15 @@ const WorkWith = () => {
           products.
         </p>
         <div className=" space-y-5   ">
-          <div className=" text-start grid grid-cols-2 lg:grid-cols-3 md:mt-[80px] md:gap-x-5 lg:ml-[-40px]">
-            <Image
-              src={hero1}
-              alt=""
-              className=" md:col-span-2 lg:col-span-2"
-            />
+          <div className=" text-start grid grid-cols-2 lg:grid-cols-3 md:mt-[80px] md:gap-x-5 lg:ml-[-40px] xl:ml-[-80px]">
+            <Image src={hero1} alt="" className=" col-span-2" />
             <Image
               src={hero2}
               alt=""
               className=" hidden lg:block lg:col-span-1  "
             />
           </div>
-          <div className=" grid grid-cols-2 lg:grid-cols-3 gap-x-5 lg:mr-[-40px]">
+          <div className=" grid grid-cols-2 lg:grid-cols-3 gap-x-5 lg:mr-[-40px] xl:mr-[-80px]">
             <Image src={hero3} alt="" className="  " />
             <Image src={hero4} alt="" className=" " />
             <Image src={hero5} alt="" className=" hidden  lg:block  " />

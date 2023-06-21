@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
-import { roboto_slab } from "../font";
+import { roboto_slab } from "../../font";
 
 const Contact = () => {
   return (

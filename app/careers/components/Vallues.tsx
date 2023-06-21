@@ -294,22 +294,22 @@ const Vallues = () => {
     <>
       <div className="  ">
         <h2
-          className={` ${poppins.className} hidden md:block uppercase text-center  text-[#e7f2ef] mt-[160px]   text-[70px] font-bold md:text-[110px] lg:text-[150px] `}
+          className={` ${poppins.className} hidden md:block uppercase text-center  text-[#e7f2ef] mt-[160px]   text-[70px] font-bold md:text-[110px] lg:text-[150px] 2xl:text-[220px] `}
         >
           Our Vallues
         </h2>
 
-        <div className=" mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] space-y-10   z-30  md:mt-[-180px]  ">
-          <div className=" ">
+        <div className=" mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] space-y-10   z-30  md:mt-[-180px] 2xl:mt-[-250px]  ">
+          <div className="  ">
             <h2
-              className={` ${roboto_slab.className} text-[35px] font-semibold  mt-5 text-[#26302b] lg:text-[45px] lg:mt-20`}
+              className={` ${roboto_slab.className} text-[35px] font-semibold  mt-5 text-[#26302b] lg:text-[45px] lg:mt-20 xl:text-[55px] 2xl:text-[40px] 2xl:w-[70%]`}
             >
               At Ollyo, our company values reflect the core beliefs and guiding
               principles that shape our culture, decision-making process, and
               overall behavior.
             </h2>
 
-            <div className=" grid gap-y-10 lg:grid-cols-2 lg:ml-[345px]  mt-20 xl:grid-rows-4  gap-x-10  ">
+            <div className=" grid gap-y-10 lg:grid-cols-2 lg:ml-[365px]  mt-20 xl:grid-rows-4  gap-x-10  ">
               {subjects.map((sub, index) => (
                 <ValluesCard key={index} subject={sub} />
               ))}

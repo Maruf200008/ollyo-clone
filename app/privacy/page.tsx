@@ -1,11 +1,14 @@
-import { Footer, Navbar, PrivacyPolicy } from "./components";
+import { Metadata } from "next";
+import { PrivacyPolicy } from "./components";
+
+export const metadata: Metadata = {
+  title: "Privacy | Careers",
+};
 
 export default function Privacy() {
   return (
     <div>
-      <Navbar />
       <PrivacyPolicy />
-      <Footer />
     </div>
   );
 }

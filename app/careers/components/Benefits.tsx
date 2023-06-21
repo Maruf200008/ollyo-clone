@@ -22,7 +22,9 @@ const Benefits = () => {
       <div className=" md:px-20  mx-auto sm:px-10 xl:px-20 px-5 2xl:px-[160px] z-30 text-white ">
         {" "}
         <p className="text-[20px]  tracking-[8px]">OUR BENEFITS</p>
-        <h2 className={` ${roboto_slab.className} text-[35px]  mt-5 `}>
+        <h2
+          className={` ${roboto_slab.className} text-[35px]  mt-5 xl:text-[45px] `}
+        >
           {`At Ollyo, we offer a comprehensive benefits package to support our employees' well-being and work-life balance. Our perks include the following:`}
         </h2>
         <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-18 mt-10">

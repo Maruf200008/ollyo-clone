@@ -1,19 +1,21 @@
 import {
   Contact,
   FanFact,
-  Footer,
   GivingBack,
   GlobalTeam,
   Hero,
-  Navbar,
   OurVision,
   Wings,
 } from "./components";
 
+export const metadata = {
+  title: "Ollyo",
+  description: "Software Company Ltd.",
+};
+
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <OurVision />
       <FanFact />
@@ -21,7 +23,6 @@ export default function Home() {
       <GivingBack />
       <GlobalTeam />
       <Contact />
-      <Footer />
     </div>
   );
 }

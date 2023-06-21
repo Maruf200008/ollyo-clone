@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { roboto_slab } from "../font";
+import { roboto_slab } from "./font";
 
 const Footer = () => {
   return (

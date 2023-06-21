@@ -5,13 +5,13 @@ const PrivacyPolicy = () => {
     <>
       <div className=" ">
         <h2
-          className={` ${poppins.className}  uppercase md:ml-[265px]  text-[#e7f2ef] md:mt-[160px]  relative  text-[70px] font-bold md:text-[200px]`}
+          className={` ${poppins.className}  uppercase md:ml-[265px]  text-[#e7f2ef] md:mt-[160px]    text-[70px] font-bold md:text-[200px]`}
         >
           PRIVACY
         </h2>
 
-        <div className="md:w-[1350px] md:px-20  mx-auto px-5 z-30  md:mt-[-180px] mt-[-60px]  bg-slate-600  ">
-          <div className=" absolute px-2 ">
+        <div className="md:px-20  mx-auto px-5 z-30  md:mt-[-180px] mt-[-60px]    ">
+          <div className="  px-2 ">
             <p className=" md:text-[14px] text-[11px] font-medium  tracking-[5px] ">
               {`OLLYO'S PRIVACY POLICY`}
             </p>
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
               Your privacy is of paramount importance to us, and we are
               committed to preserving and safeguarding it.
             </h2>
-            <div className="    space-y-7 mt-14 text-slate-500 md:w-[980px] text-[17px] leading-7 mb-32">
+            <div className="    space-y-7 mt-14 text-slate-500  text-[17px] leading-7 mb-32">
               <p>
                 At Ollyo, we adhere to various regulations designed to help us
                 protect your privacy.
