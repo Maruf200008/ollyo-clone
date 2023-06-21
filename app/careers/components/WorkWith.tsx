@@ -37,18 +37,25 @@ const WorkWith = () => {
           products.
         </p>
         <div className=" space-y-5   ">
-          <div className=" text-start grid grid-cols-2 lg:grid-cols-3 md:mt-[80px] md:gap-x-5 lg:ml-[-40px] xl:ml-[-80px]">
-            <Image src={hero1} alt="" className=" col-span-2" />
-            <Image
-              src={hero2}
-              alt=""
-              className=" hidden lg:block lg:col-span-1  "
-            />
+          <div className=" text-start overflow-hidden grid grid-cols-2 lg:grid-cols-3 2 md:mt-[80px] gap-x-5 lg:ml-[-40px] xl:ml-[-80px]  ">
+            <div className="flex items-end justify-start  col-span-2">
+              <Image src={hero1} alt="" className="" />
+            </div>
+            <div className=" items-end justify-start lg:flex lg:col-span-1 hidden ">
+              <Image src={hero2} alt="" className="   " />
+            </div>
           </div>
-          <div className=" grid grid-cols-2 lg:grid-cols-3 gap-x-5 lg:mr-[-40px] xl:mr-[-80px]">
-            <Image src={hero3} alt="" className="  " />
-            <Image src={hero4} alt="" className=" " />
-            <Image src={hero5} alt="" className=" hidden  lg:block  " />
+          <div className=" grid grid-cols-2 lg:grid-cols-3  overflow-hidden text-right   gap-x-5 lg:mr-[-40px] xl:mr-[-80px] ">
+            <div className="flex items-start justify-end">
+              <Image src={hero3} alt="" />
+            </div>
+
+            <div className="flex items-start justify-end">
+              <Image src={hero4} alt="" />
+            </div>
+            <div className=" items-start justify-end hidden  lg:flex">
+              <Image src={hero5} alt="" />
+            </div>
           </div>
         </div>
       </div>

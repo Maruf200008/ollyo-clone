@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { roboto_slab } from "./font";
 
@@ -11,7 +12,8 @@ const Footer = () => {
           </p>
           <Link
             href="/privacy"
-            className={`${roboto_slab.className} hover:text-[#008977] font-normal `}
+            className={`${roboto_slab.className}  isActive ? "text-[#008977] underline" : " text-gray-500"
+          }  hover:text-[#008977] hover:text-[#008977] font-normal `}
           >
             Privacy Policy
           </Link>

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
-import { roboto_slab } from "../../font";
+import { roboto_slab } from "../font";
 const GivingBack = () => {
   const programs = [
     {

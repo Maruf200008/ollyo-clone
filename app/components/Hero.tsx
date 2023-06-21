@@ -1,4 +1,4 @@
-import { poppins, roboto_slab } from "../../font";
+import { poppins, roboto_slab } from "../font";
 import SocialMedia from "./SocialMedia";
 const Hero = () => {
   return (

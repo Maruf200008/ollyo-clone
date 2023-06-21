@@ -5,23 +5,23 @@ const PrivacyPolicy = () => {
     <>
       <div className=" ">
         <h2
-          className={` ${poppins.className}  uppercase md:ml-[265px]  text-[#e7f2ef] md:mt-[160px]    text-[70px] font-bold md:text-[200px]`}
+          className={` ${poppins.className}  uppercase   text-[#e7f2ef] md:mt-[160px]    text-[70px] font-bold sm:text-[140px] lg:text-[250px] xl:text-[300px] 2xl:text-center `}
         >
           PRIVACY
         </h2>
 
-        <div className="md:px-20  mx-auto px-5 z-30  md:mt-[-180px] mt-[-60px]    ">
-          <div className="  px-2 ">
-            <p className=" md:text-[14px] text-[11px] font-medium  tracking-[5px] ">
+        <div className="sm:px-10 xl:px-20 px-5 2xl:px-[160px]  sm:mx-auto  z-30  sm:mt-[-100px] md:mt-[-120px] lg:mt-[-150px]    ">
+          <div className="  px-2  ">
+            <p className="  text-gray-600 text-[11px] sm:text-[18px] md:text-[22px] font-medium  tracking-[5px] ">
               {`OLLYO'S PRIVACY POLICY`}
             </p>
             <h2
-              className={` ${roboto_slab.className}  md:text-[42px] text-[28px] md:w-[800px] mt-5 text-[#26302b]`}
+              className={` ${roboto_slab.className}  sm:text-[35px] md:text-[45px] font-bold text-[28px]  mt-5 text-[#26302b] 2xl:w-[70%] 2xl:text-[40px]`}
             >
               Your privacy is of paramount importance to us, and we are
               committed to preserving and safeguarding it.
             </h2>
-            <div className="    space-y-7 mt-14 text-slate-500  text-[17px] leading-7 mb-32">
+            <div className=" space-y-7 mt-14 text-slate-700  text-[17px] sm:text-[19px] leading-7 sm:leading-[30px] mb-32 md:leading-[40px] lg:text-[21px]">
               <p>
                 At Ollyo, we adhere to various regulations designed to help us
                 protect your privacy.
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
                 operating our site.
               </p>
               <div className=" space-y-3">
-                <h2 className=" font-semibold text-black">
+                <h2 className=" font-semibold text-gray-700">
                   Visitor Information
                 </h2>
                 <p>
@@ -51,7 +51,9 @@ const PrivacyPolicy = () => {
                 </p>
               </div>
               <div className=" space-y-3">
-                <h2 className=" font-semibold text-black">User Information</h2>
+                <h2 className=" font-semibold text-gray-700">
+                  User Information
+                </h2>
                 <p>
                   When interacting with our site and providing personal
                   information is required, we may request personally
@@ -65,7 +67,7 @@ const PrivacyPolicy = () => {
                 </p>
               </div>
               <div className=" space-y-3">
-                <h2 className=" font-semibold text-black">
+                <h2 className=" font-semibold text-gray-700">
                   Analytics & Statistics
                 </h2>
                 <p>
@@ -77,7 +79,7 @@ const PrivacyPolicy = () => {
                 </p>
               </div>
               <div className=" space-y-3">
-                <h2 className=" font-semibold text-black">
+                <h2 className=" font-semibold text-gray-700">
                   Disclosure of Certain Personally Identifiable Information
                 </h2>
                 <p>
@@ -103,7 +105,7 @@ const PrivacyPolicy = () => {
                 </p>
               </div>
               <div className=" space-y-3">
-                <h2 className=" font-semibold text-black">Cookies</h2>
+                <h2 className=" font-semibold text-gray-700">Cookies</h2>
                 <p>
                   We use cookies to track and identify users and their site
                   preferences and usage. You can configure your browser to

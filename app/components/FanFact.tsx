@@ -1,4 +1,4 @@
-import { roboto_slab } from "../../font";
+import { roboto_slab } from "../font";
 
 const FanFact = () => {
   return (
