@@ -3,7 +3,14 @@ import { useState } from "react";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { roboto_slab } from "../font";
 const GivingBack = () => {
-  const programs = [
+  interface Program {
+    sponsor: string;
+    year: number;
+    title: string;
+    country: string;
+  }
+
+  const programs: Program[] = [
     {
       sponsor: "Tutor LMS",
       year: 2023,

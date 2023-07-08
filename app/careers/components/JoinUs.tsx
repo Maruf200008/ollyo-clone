@@ -1,7 +1,15 @@
 import Link from "next/link";
 import { roboto_slab } from "../../font";
 const JoinUs = () => {
-  const subjects = [
+  interface Subject {
+    title: string;
+    catagory: string;
+    location: string;
+    buttonText: string;
+    applyLink: string;
+  }
+
+  const subjects: Subject[] = [
     {
       title: "Product Designer",
       catagory: "Design",
